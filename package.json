@@ -1,0 +1,23 @@
+{
+  "name": "todos-e2e-tests",
+  "version": "1.0.0",
+  "description": "ui tests",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "open": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miculnapoleon/cypress-tests-todos.git"
+  },
+  "author": "Andreea Tanase",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miculnapoleon/cypress-tests-todos/issues"
+  },
+  "homepage": "https://github.com/miculnapoleon/cypress-tests-todos#readme",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  }
+}
